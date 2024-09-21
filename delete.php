@@ -9,6 +9,6 @@ $sql = "DELETE FROM formulario WHERE id = :id";
 $stmt = $conn->prepare($sql);
 $stmt->execute([':id' => $id]);
 
-echo "Registro eliminado correctamente.";
+echo "Registry deleted successfully.";
 header("Location: index.php")
 ?>
