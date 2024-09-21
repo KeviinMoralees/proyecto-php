@@ -17,10 +17,10 @@ include 'update.php';
     <a class="nav-link" href="index.php">Inicio</a>
   </li>
       <li class="">
-        <a class="nav-link" href="contact.php">Formulario Contacto</a>
+        <a class="nav-link" href="contact.php">Contact Form</a>
       </li>
       <li class="">
-        <a class="nav-link" href="list.php">Lista Contacto</a>
+        <a class="nav-link" href="list.php">Contact List</a>
       </li>
     </ul>
 </nav> 
