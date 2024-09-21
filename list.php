@@ -13,22 +13,28 @@ include 'read.php';
 <body>
 <header>
     <nav class="navbar">
-        <ul>
-            <li><a class="nav-link" href="index.php">Inicio</a></li>
-            <li><a class="nav-link" href="contact.php">Formulario Contacto</a></li>
-            <li><a class="nav-link" href="list.php">Lista Contacto</a></li>
-        </ul>
+    <ul class="">
+<li class="">
+    <a class="nav-link" href="index.php">Home</a>
+  </li>
+      <li class="">
+        <a class="nav-link" href="contact.php">Form Contact</a>
+      </li>
+      <li class="">
+        <a class="nav-link" href="list.php">List Contact</a>
+      </li>
+    </ul>
     </nav>
 </header>
 
-<h2 class='list'>Lista de Contactos</h2>
+<h2 class='list'>ListaContact</h2>
 <table>
     <tr>
-        <th>Nombre</th>
-        <th>Apellido</th>
-        <th>Número de teléfono</th>
-        <th>Email</th>
-        <th>Acciones</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Phone Number</th>
+        <th>Mail</th>
+        <th>Actions</th>
     </tr>
     <?php foreach ($users as $user) { ?>
     <tr>
