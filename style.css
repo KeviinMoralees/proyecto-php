@@ -1,6 +1,7 @@
 /* Estilo general del body */
 body {
     margin: 0;
+    opacity: 0.1;
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
