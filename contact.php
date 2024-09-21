@@ -31,13 +31,13 @@ include 'create.php';
         <form method="POST" action="">
         <h2>Formulario de Contacto<h2>
         <h3>Name</h3>  
-        <input type="text" name="name" placeholder="Nombre" required><br>
+        <input type="text" name="name" placeholder="Name" required><br>
         <h3>Surname</h3>
-        <input type="text" name="surname" placeholder="Apellido" required><br>
+        <input type="text" name="surname" placeholder="Surname" required><br>
         <h3>Telephone number</h3>
-        <input type="text" name="phone_number" placeholder="Número de teléfono" required><br>
+        <input type="text" name="phone_number" placeholder="Number" required><br>
         <h3>Email</h3>
-        <input type="email" name="email" placeholder="Correo electrónico" required><br>
+        <input type="email" name="email" placeholder="Email" required><br>
         <input type="checkbox" name="authorize" value="1" required>Accept terms and conditions<br>
         <button type="submit">Send</button>
         </form>
