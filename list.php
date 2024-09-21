@@ -43,7 +43,7 @@ include 'read.php';
         <td><?php echo htmlspecialchars($user['phone_number']); ?></td>
         <td><?php echo htmlspecialchars($user['email']); ?></td>
         <td>
-            <a href="update.php?id=<?php echo urlencode($user['id']); ?>">Editar</a>
+            <a href="updatepage.php?id=<?php echo urlencode($user['id']); ?>">Editar</a>
             <a href="delete.php?id=<?php echo urlencode($user['id']); ?>">Eliminar</a>
         </td>
     </tr>
