@@ -10,13 +10,13 @@
 <nav class="navbar">
 <ul class="">
 <li class="">
-    <a class="nav-link" href="index.php">Inicio</a>
+    <a class="nav-link" href="index.php">Home</a>
   </li>
       <li class="">
-        <a class="nav-link" href="contact.php">Formulario Contacto</a>
+        <a class="nav-link" href="contact.php">Form Contact</a>
       </li>
       <li class="">
-        <a class="nav-link" href="list.php">Lista Contacto</a>
+        <a class="nav-link" href="list.php">List Contact</a>
       </li>
     </ul>
 </nav> 
